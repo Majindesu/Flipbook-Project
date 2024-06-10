@@ -116,7 +116,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={11}
-          src={`/flipbook-pages/11.png`}
+          src={`/flipbook-pages/E-MODUL_INTERAKTIF.png`}
           alt={`Page 11`}
           style={{ width: "100%", height: "100%" }}
         />
