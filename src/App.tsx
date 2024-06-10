@@ -1,23 +1,27 @@
-import './App.css'
-import Flipbook from './components/Flipbook'
-
-// const generateImagePaths = (): string[] => {
-//   const paths = [];
-//   for (let i = 1; i <= 14; i++) {
-//     paths.push(`/components/flipbook-pages/${i}.png`);
-//   }
-//   return paths;
-// };
-
+import { useState } from "react";
+import "./App.css";
+import Flipbook from "./components/Flipbook";
+import Videomodal from "./components/Videomodal";
+import BackgroundMusic from "./components/BackgroundMusic";
 
 function App() {
-  const pages = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"];
-  // const pages = generateImagePaths()
+  const [videoUrl, setVideoUrl] = useState<string | null>(null);
+
+  const handleVideoSelect = (url: string) => {
+    setVideoUrl(url);
+  };
+
+  const handleClose = () => {
+    setVideoUrl(null);
+  };
+
   return (
     <>
-      <Flipbook pages={ pages } />
+      {videoUrl && <Videomodal videoUrl={videoUrl} onClose={handleClose} />}
+      <BackgroundMusic videoUrl="https://www.youtube.com/watch?v=i43tkaTXtwI&t=16s"/>
+      <Flipbook onVideoSelect={handleVideoSelect} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
