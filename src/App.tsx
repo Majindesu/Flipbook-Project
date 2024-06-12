@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       {videoUrl && <Videomodal videoUrl={videoUrl} onClose={handleClose} />}
-      <BackgroundMusic videoUrl="https://www.youtube.com/watch?v=i43tkaTXtwI&t=16s"/>
+      <BackgroundMusic videoUrl="https://www.youtube.com/watch?v=axdROeYyX34"/>
       <Flipbook onVideoSelect={handleVideoSelect} />
     </>
   );
