@@ -41,7 +41,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
       <div className="staticpage">
         <img
           key={1}
-          src={`/flipbook-pages/1.png`}
+          src={`/flipbook-pages/1.webp`}
           alt={`Page 1`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -53,7 +53,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={3}
-          src={`/flipbook-pages/3.png`}
+          src={`/flipbook-pages/3.webp`}
           alt={`Page 3`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -62,7 +62,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={4}
-          src={`/flipbook-pages/4.png`}
+          src={`/flipbook-pages/4.webp`}
           alt={`Page 4`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -80,7 +80,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={7}
-          src={`/flipbook-pages/7.png`}
+          src={`/flipbook-pages/7.webp`}
           alt={`Page 7`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -89,7 +89,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={8}
-          src={`/flipbook-pages/8.png`}
+          src={`/flipbook-pages/8.webp`}
           alt={`Page 8`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -98,7 +98,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={9}
-          src={`/flipbook-pages/9.png`}
+          src={`/flipbook-pages/9.webp`}
           alt={`Page 9`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -107,7 +107,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={10}
-          src={`/flipbook-pages/10.png`}
+          src={`/flipbook-pages/10.webp`}
           alt={`Page 10`}
           style={{ width: "100%", height: "100%" }}
         />
@@ -116,7 +116,7 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
         <HomeButton onClick={goHome} />
         <img
           key={11}
-          src={`/flipbook-pages/E-MODUL_INTERAKTIF.png`}
+          src={`/flipbook-pages/E-MODUL_INTERAKTIF.webp`}
           alt={`Page 11`}
           style={{ width: "100%", height: "100%" }}
         />

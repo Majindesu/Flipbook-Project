@@ -12,7 +12,7 @@ const Page5: React.FC<Page5Props> = ({ onVideoSelect }) => {
   
   return (
     <div className='flex items-center justify-center'>
-      <img src={`/flipbook-pages/5_polos.png`} alt="Page 5" />
+      <img src={`/flipbook-pages/5_polos.webp`} alt="Page 5" />
       <button
         className="fixed bottom-4 md:bottom-5 lg:bottom-6 xl:bottom-7 z-10"
         onClick={handleClick}

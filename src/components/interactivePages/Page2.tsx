@@ -38,7 +38,7 @@ const Page2 = ({ goToPage }) => {
               Profil Penulis & Pembimbing
             </button>
         </div>
-        <img className="fixed top-0 left-0 z-0 sm:w-1/2 sm:h-auto md:h-full md:w-full" src={`/flipbook-pages/2_polos.png`}/>
+        <img className="fixed top-0 left-0 z-0 sm:w-1/2 sm:h-auto md:h-full md:w-full" src={`/flipbook-pages/2_polos.webp`}/>
       </div>
     </>
   );
