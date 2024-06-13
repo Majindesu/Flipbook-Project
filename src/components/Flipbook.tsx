@@ -121,6 +121,15 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
           style={{ width: "100%", height: "100%" }}
         />
       </div>
+      <div className="staticpage">
+        <HomeButton onClick={goHome} />
+        <img
+          key={11}
+          src={`/flipbook-pages/Profil.webp`}
+          alt={`Page 12`}
+          style={{ width: "100%", height: "100%" }}
+        />
+      </div>
     </HTMLFlipBook>
   );
 };

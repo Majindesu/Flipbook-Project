@@ -34,7 +34,7 @@ const Page2 = ({ goToPage }) => {
               Kerajaan Singasari
             </button>
             {/*2,4*/}
-            <button className="text-xs w-32 h-16 px-5 py-2 md:w-72 md:h-24 md:px-10 md:py-2 md:text-xl md:font-bold bg-[#C2A27F] text-white rounded-2xl" onClick={() => goToPage(10)}>
+            <button className="text-xs w-32 h-16 px-5 py-2 md:w-72 md:h-24 md:px-10 md:py-2 md:text-xl md:font-bold bg-[#C2A27F] text-white rounded-2xl" onClick={() => goToPage(11)}>
               Profil Penulis & Pembimbing
             </button>
         </div>
