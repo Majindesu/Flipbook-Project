@@ -28,8 +28,8 @@ const Flipbook: React.FC<FlipbookProps> = ({ onVideoSelect }) => {
     //@ts-ignore
     <HTMLFlipBook
       className="m-5 shadow-2xl"
-      width={794}
-      height={1123}
+      width={636}
+      height={900}
       maxWidth={794}
       maxHeight={1123}
       size="stretch"

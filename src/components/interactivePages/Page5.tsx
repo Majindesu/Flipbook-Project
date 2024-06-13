@@ -20,7 +20,7 @@ const Page5: React.FC<Page5Props> = ({ onVideoSelect }) => {
         <img
           src={`/videothumbnail1.png`}
           alt="Video Thumbnail"
-          className="aspect-video h-24 md:h-34 lg:h-40 xl:h-52"
+          className="aspect-video h-24 md:h-34 lg:h-40 xl:h-44"
         />
       </button>
     </div>
